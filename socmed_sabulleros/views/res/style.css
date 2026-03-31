@@ -1,0 +1,187 @@
+ body{
+    background-image: url('https://w0.peakpx.com/wallpaper/813/818/HD-wallpaper-ai-landscape-2023-digital-art.jpg');
+    font-family: 'Calibir';
+    padding: 0px;
+    background-size: cover;
+}
+.reg-form{
+    width: 25%;
+    padding: 2em;
+    margin: 1em auto;
+    border-radius: 5px;
+     background-position: center;
+    background-repeat: no-repeat;
+     background-size: auto;
+    box-shadow: 2px 2px 25px 20px violet;
+}
+input{
+    width: 95%;
+    margin: .8em auto;
+    margin-top: 0em;
+    padding: .5em .2em;
+}
+label{
+    font-size: .8em;
+    color: #fffefe;
+}
+input[type='submit']{
+    width: 97.7%;
+    background-color: pink;
+    color: #fffefe;
+    outline: none;
+    border: none;
+    padding: .8em .2em;
+    border-radius: 2px;
+}    
+input[type='submit']:hover{
+    background-color: violet;
+    color: #fffefe;
+}
+.nav{
+    background-color: #ccffff;
+   margin: 20px;
+   box-shadow: 2px 2px 5px 2px violet; 
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   border-radius: 20px;
+   max-height: 50px;
+}
+.nav-right{
+    display: block;
+    width: 20%;
+    margin-left: auto;
+}
+.nav-left{
+    display: inline-block;
+    width: 70%;
+    margin-right: auto;
+    text-align: left;
+}
+.nav-left ul{
+   list-style-type: none;
+   margin: 0px;
+}
+.nav-left li{
+    display: inline-block;
+    padding: 1em;
+}
+.nav-left li:hover{
+    background-color: #abefef;
+}
+.logo{
+    background-image: url('logo');
+    background-size: 35px 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav-right ul{
+    list-style-type: none;
+}
+.nav-right li{
+   display: inline-block;
+   padding:1em;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+.title{
+    text-align: center;
+    color: red;
+    fontsize: 1em;
+}
+.alert  {
+    text-align: center;
+    color: #ee6666;
+    fontsize: 1em;
+}
+.container{
+    position: relative;
+    margin: 1em auto;
+    min-heigt: 40vh;
+    min-width: 50vh;
+    width: 80%;
+    background-color: #bbffff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.banner{
+    width: 100%;
+    background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/09/naruto-on-tree-branch-scenic-autumn-desktop-wallpaper-cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-size: 500px 150px;
+    height: 21vh;
+    box-shadow: 2px 2px 5px 2px violet;
+}
+#banner-propic{
+    background-image: url('ppp.jpg');   
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    top: 13vh;
+    left: 10vh;
+    box-shadow: 2px 2px 5px 2px #ff00ff;
+}
+#banner-name{
+    position: absolute;
+    top: 25vh;
+    left: 32vh;
+    font-size: 2em;
+    color: white;
+}
+.post-container{ overflow: hidden;
+    width: 50%;
+    margin: auto;
+    margin-top: 10vh;
+}
+#post-area{
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 1em 1em;
+}
+#post-btn{
+    margin: 1em auto;
+    width: 100%;
+}
+.post{
+    width: 100%;
+    border: solid .5px;
+    border-color: blue;
+    border-radius: 15px;
+    margin: .2em auto;
+    box-sizing: border-box;
+    padding: .5em;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 2px 5px 2px #ff00ff;
+}
+.post-content{
+    width: 100%;
+    border: solid 2px;
+    border-color: black;
+    border-radius: 15px;
+    margin: .2em auto;
+    box-sizing: border-box;
+    padding: .5em;
+    border-radius: 5px;
+    color: #337777;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.timeline-container{
+    position: relative;
+    margin: 1em auto;
+    min-height: 40vh;
+    min-width:50vh;
+    width: 60%;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 2px violet;
+    padding: 2em;
+}
